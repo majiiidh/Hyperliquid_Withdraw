@@ -19,7 +19,7 @@ pip install eth-account hyperliquid-python-sdk
 ```
 
 ---
-**Undelegate from a Validator:**
+**Undelegate stake from a validator:**
 
 When you delegate HYPE to a validator, there’s a 1-day lockup period. After that period, you can undelegate your tokens, and they are immediately available in your staking account after undelegation.
 
@@ -79,7 +79,9 @@ You should get the following response if successful:
 
 ---
 
-**Unstaking — from Staking Account back to Spot Account**
+**Withdraw from staking**
+
+This method is used to transfer native token from staking into the user's spot account. Note that transfers from staking to spot account go through a 7 day unstaking queue.
 
 
 Create a python file:
