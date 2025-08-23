@@ -1,6 +1,6 @@
 # Withdraw Staked $HYPE Using Hyperliquid Python SDK
 
-This repository provides simple Python examples for interacting with the [Hyperliquid](https://hyperliquid.xyz) network using the [official Python SDK](https://github.com/hyperliquid-dex/hyperliquid-python-sdk).  
+This repository provides simple Python examples for interacting with the [Hyperliquid](https://hyperliquid.xyz) network using the [Official Python SDK](https://github.com/hyperliquid-dex/hyperliquid-python-sdk).  
 
 Currently, it includes a script to **undelegate from a validator** and **unstake HYPE tokens** from the staking account back to your spot account.
 
