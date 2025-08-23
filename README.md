@@ -204,7 +204,10 @@ rm undelegate.py withdraw.py
 
 After the 7-day unstaking period, you can transfer $HYPE from Hyperliquid to HyperEVM using a bridge like [Hyperdash](https://hyperdash.info/bridge), and then move tokens to your target network via [JumperExchange](https://jumper.exchange) or any other bridge supporting HyperEVM.
 
-#💖 Support / Donate
+---
+
+
+# 💖 Support / Donate
 
 If you found this repository helpful and want to support my work, you can send a donation to:
 ```
