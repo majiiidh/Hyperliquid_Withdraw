@@ -1,4 +1,4 @@
-# Withdraw Staked $Hype Using Hyperliquid Python SDK
+# Withdraw Staked $HYPE Using Hyperliquid Python SDK
 
 This repository provides simple Python examples for interacting with the [Hyperliquid](https://hyperliquid.xyz) network using the [official Python SDK](https://github.com/hyperliquid-dex/hyperliquid-python-sdk).  
 
