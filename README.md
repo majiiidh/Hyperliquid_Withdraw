@@ -7,8 +7,8 @@ Currently, it includes a script to **undelegate from a validator** and **withdra
 ---
 
 ## ⚠️ Security Warning
-- Hard‑coding your private key in a source file is **NOT SECURE**. Replace the `PRIVATE_KEY` value with your
-own key and **NEVER** commit it to a public repository or share it with others! **REMOVE** the python files after running the codes.
+- Hard‑coding your private key in a source file is **NOT SECURE**.
+- **NEVER** commit it to a public repository or share it with others! **REMOVE** the python files after running the codes.
 - This repository is for **educational purposes only**. 
 
 ---
@@ -28,7 +28,7 @@ Create a python file:
 nano undelegate.py
 ```
 
-Copy the below code and paste into the file, then hit ctrl+x then y then hit Enter to save:
+Copy the below code and paste into the file,  Replace the `PRIVATE_KEY`, `VALIDATOR_ADDRESS` and `AMOUNT_HYPE` value with your own values and then hit ctrl+x then y then hit Enter to save. You could find the validator address in the Staking Action History in the Staking section of the Hyperliquid Platform.
 
 
 ```
