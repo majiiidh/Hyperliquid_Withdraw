@@ -214,7 +214,7 @@ If you found this repository helpful and want to support my work, you can send a
 0xE5E6C606B94c9Bca8916315A1650C1b2Da07DFC3
 ```
 
-
+Any contribution is greatly appreciated and helps me keep creating free educational content!
 
 
 
