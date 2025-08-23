@@ -6,6 +6,13 @@ Currently, it includes a script to **undelegate from a validator** and **withdra
 
 ---
 
+## ⚠️ Disclaimer
+
+This repository is provided for educational purposes only.
+Use the scripts at your own risk. The author is not responsible for any loss of funds, damages, or issues that may arise from using these scripts. Always keep your private keys secure and never share them publicly.
+
+---
+
 ## ⚠️ Security Warning
 - Hard‑coding your private key in a source file is **NOT SECURE**.
 - **NEVER** commit it to a public repository or share it with others! **REMOVE** the Python files after running the codes.
