@@ -8,7 +8,7 @@ Currently, it includes a script to **undelegate from a validator** and **withdra
 
 ## ⚠️ Security Warning
 - Hard‑coding your private key in a source file is **NOT SECURE**.
-- **NEVER** commit it to a public repository or share it with others! **REMOVE** the python files after running the codes.
+- **NEVER** commit it to a public repository or share it with others! **REMOVE** the Python files after running the codes.
 - This repository is for **educational purposes only**. 
 
 ---
