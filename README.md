@@ -28,7 +28,7 @@ Create a python file:
 nano undelegate.py
 ```
 
-copy the below code and paste into the file, then hit ctl+x then y then hit Enter:
+Copy the below code and paste into the file, then hit ctrl+x then y then hit Enter to save:
 
 
 ```
@@ -86,9 +86,9 @@ This method is used to transfer native token from staking into the user's spot a
 
 Create a python file:
 ```
-nano undelegate.py
+nano withdraw.py
 ```
-copy the below code and paste into the file, then hit ctl+x then y then hit Enter:
+Copy the below code and paste into the file, then hit ctrl+x then y then hit Enter to save:
 
 ```
 from eth_account import Account
@@ -177,7 +177,7 @@ if __name__ == "__main__":
 
 Run the code:
 ```
-python3 undelegate.py
+python3 withdraw.py
 ```
 
 You should get the following response if successful:
@@ -185,7 +185,23 @@ You should get the following response if successful:
 {'status': 'ok', 'response': {'type': 'default'}}
 ```
 
+---
 
+## ⚠️ Security Warning
+
+Remove the python files using the codes below:
+
+```
+rm undelegate.py withdraw.py
+```
+
+
+---
+
+
+**Transfer funds to you desired network**
+
+Transfers from staking to spot account go through a 7 day unstaking queue. After the period, you can transfer $HYPE from Hyperliquid to HyperEVM using a bridge like [Hyperdash](https://hyperdash.info/bridge) and then to your desired network using (JumperExchange)[https://jumper.exchange] or any other bridge supporting HyperEVM.
 
 
 
