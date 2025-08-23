@@ -12,23 +12,25 @@ Currently, it includes a script to **undelegate from a validator** and **withdra
 - This repository is for **educational purposes only**. 
 
 ---
-**Install dependencies:**
+**Installation**
+
+Install the required dependencies:
 
 ```
 pip install eth-account hyperliquid-python-sdk
 ```
 
 ---
-**Undelegate stake from a validator:**
+**Undelegate stake from a validator**
 
-When you delegate HYPE to a validator, there’s a 1-day lockup period. After that period, you can undelegate your tokens, and they are immediately available in your staking account after undelegation.
+After delegating HYPE to a validator, there is a 1-day lockup period. Once this period ends, you can undelegate your tokens. They will then be available in your staking account immediately after undelegation.
 
-Create a python file:
+1. Create a Python file:
 ```
 nano undelegate.py
 ```
 
-Copy the below code and paste into the file,  Replace the `PRIVATE_KEY`, `VALIDATOR_ADDRESS` and `AMOUNT_HYPE` value with your own values and then hit ctrl+x then y then hit Enter to save. You could find the validator address in the Staking Action History in the Staking section of the Hyperliquid Platform.
+2. Copy the script below into the file, replacing `PRIVATE_KEY`, `VALIDATOR_ADDRESS`, and `AMOUNT_HYPE` with your own values. You can find validator addresses in the Staking Action History on the Hyperliquid platform. Save the file (ctrl+x, y, Enter).
 
 
 ```
@@ -66,13 +68,12 @@ undelegate_result = exchange.token_delegate(
 print(undelegate_result)
 ```
 
-Run the code:
+3. Run the script:
 ```
 python3 undelegate.py
 ```
 
-
-You should get the following response if successful:
+A successful response will look like:
 ```
 {'status': 'ok', 'response': {'type': 'default'}}
 ```
@@ -81,14 +82,14 @@ You should get the following response if successful:
 
 **Withdraw from staking**
 
-This method is used to transfer native token from staking into the user's spot account. Note that transfers from staking to spot account go through a 7 day unstaking queue.
+This script allows you to transfer tokens from staking to your spot account. Note that transfers go through a 7-day unstaking queue.
 
 
-Create a python file:
+1. Create a Python file:
 ```
 nano withdraw.py
 ```
-Copy the below code and paste into the file, then hit ctrl+x then y then hit Enter to save:
+2. Copy the script below into the file, replace `PRIVATE_KEY` and `AMOUNT_HYPE` with your own values, then save the file (ctrl+x, y, Enter).
 
 ```
 from eth_account import Account
@@ -175,21 +176,21 @@ if __name__ == "__main__":
     print(result)
 ```
 
-Run the code:
+3. Run the script:
 ```
 python3 withdraw.py
 ```
 
-You should get the following response if successful:
+A successful response will look like:
 ```
 {'status': 'ok', 'response': {'type': 'default'}}
 ```
 
 ---
 
-## ⚠️ Security Warning
+## ⚠️ Cleanup
 
-Remove the python files using the codes below:
+After running the scripts, remove them to protect your private key:
 
 ```
 rm undelegate.py withdraw.py
@@ -201,11 +202,7 @@ rm undelegate.py withdraw.py
 
 **Transfer funds to you desired network**
 
-Transfers from staking to spot account go through a 7 day unstaking queue. After the period, you can transfer $HYPE from Hyperliquid to HyperEVM using a bridge like [Hyperdash](https://hyperdash.info/bridge) and then to your desired network using (JumperExchange)[https://jumper.exchange] or any other bridge supporting HyperEVM.
-
-
-
-
+After the 7-day unstaking period, you can transfer $HYPE from Hyperliquid to HyperEVM using a bridge like [Hyperdash](https://hyperdash.info/bridge), and then move tokens to your target network via (JumperExchange)[https://jumper.exchange] or any other bridge supporting HyperEVM.
 
 
 
