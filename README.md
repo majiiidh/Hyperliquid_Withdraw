@@ -207,7 +207,7 @@ After the 7-day unstaking period, you can transfer $HYPE from Hyperliquid to Hyp
 ---
 
 
-# 💖 Support / Donate
+## 💖 Support / Donate
 
 If you found this repository helpful and want to support my work, you can send a donation to:
 ```
