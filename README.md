@@ -188,7 +188,7 @@ A successful response will look like:
 
 ---
 
-## ⚠️ Cleanup
+## 🚨 Cleanup
 
 After running the scripts, remove them to protect your private key:
 
@@ -200,7 +200,7 @@ rm undelegate.py withdraw.py
 ---
 
 
-## ✅Transfer funds to you desired network
+## 🚀 Transfer funds to you desired network
 
 After the 7-day unstaking period, you can transfer $HYPE from Hyperliquid to HyperEVM using a bridge like [Hyperdash](https://hyperdash.info/bridge), and then move tokens to your target network via [JumperExchange](https://jumper.exchange) or any other bridge supporting HyperEVM.
 
