@@ -223,5 +223,17 @@ If you found this repository helpful and want to support my work, you can send a
 Any contribution is greatly appreciated and helps me keep creating free educational content!
 
 
+## 💝 Support Development
+
+Love this project? Support continued development:
+
+**One-Click Crypto Donation:**
+[![Support Development](https://paybadge.profullstack.com/badge.svg)](https://paybadge.profullstack.com/?tickers=btc,eth,sol,usdc&recipient_addresses=btc:bc1pl6eq7gmxl270hxxcy4nwz5vd3jfh2708mje92cz9dvu2a29eg7jsmra2ss,eth:0xE5E6C606B94c9Bca8916315A1650C1b2Da07DFC3,sol:5c5W26hRhYpmsBVghXiG4HcxeUJrC7e6cSkmE2qSsQqY,usdc:0xE5E6C606B94c9Bca8916315A1650C1b2Da07DFC3)
+
+**Prefer Bitcoin?**
+[![Bitcoin Only](https://paybadge.profullstack.com/badge.svg)](https://paybadge.profullstack.com/?ticker=btc&recipient_address=bc1pl6eq7gmxl270hxxcy4nwz5vd3jfh2708mje92cz9dvu2a29eg7jsmra2ss)
+
+
+
 
 
