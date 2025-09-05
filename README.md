@@ -215,7 +215,7 @@ After the 7-day unstaking period, you can transfer $HYPE from Hyperliquid to Hyp
 
 ## 💝 Support / Donate
 
-If you found this repository helpful and want to support my work, you can send a donation (ETH oe USDC) to:
+If you found this repository helpful and want to support my work, you can send a donation (ETH or USDC) to:
 
 ```
 0xE5E6C606B94c9Bca8916315A1650C1b2Da07DFC3
